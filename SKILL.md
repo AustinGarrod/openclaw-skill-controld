@@ -1,11 +1,13 @@
 ---
 name: controld
-description: Manage ControlD DNS filtering service via API. Use for DNS profile management, device configuration, custom blocking rules, service filtering, analytics settings, and network diagnostics. Triggers when user mentions ControlD, DNS filtering, DNS blocking, device DNS setup, or managing DNS profiles.
+description: "Manage Control D DNS filtering service via API. Use for DNS profile management, device configuration, custom blocking rules, service filtering, analytics settings, and network diagnostics. Triggers when user mentions Control D, DNS filtering, DNS blocking, device DNS setup, or managing DNS profiles."
+homepage: https://controld.com
+metadata: { "openclaw": { "emoji": "🛡️", "requires": { "bins": ["curl", "jq"], "credentials": ["CONTROLD_API_TOKEN"] } } }
 ---
 
-# ControlD DNS Management
+# Control D DNS Management
 
-ControlD is a DNS filtering and privacy service. This skill enables full API access.
+Control D is a DNS filtering and privacy service. This skill enables full API access.
 
 ## Authentication
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# ControlD API CLI helper
+# Control D API CLI helper
 # Usage: controld.sh <resource> <action> [args...]
 
 set -euo pipefail
@@ -24,7 +24,7 @@ api() {
 
 usage() {
     cat <<EOF
-ControlD API CLI
+Control D API CLI
 
 Usage: controld.sh <resource> <action> [args...]
 
